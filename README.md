@@ -1,12 +1,19 @@
-Mininet: Rapid Prototyping for Software Defined Networks
-========================================================
+Mininet-frr: Temporary FRRouting Fork to use Mininet with Python 3
+==================================================================
 *The best way to emulate almost any network on your laptop!*
 
-Mininet 2.3.0d6
+Mininet-frr 2.3.0
 
-[![Build Status][2]](https://github.com/mininet/mininet/actions)
-[![Travis Status][1]](https://travis-ci.org/mininet/mininet)
+Mininet fork with small changes to change it to Python 3.x
+This fork will be removed after the main Mininet is updated
+and has packages to be used with Python 3
 
+Build Debian Package with:
+```
+dpkg-buildpackage -b -rfakeroot -us -uc
+```
+
+Original README follows:
 
 ### What is Mininet?
 
