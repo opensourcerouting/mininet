@@ -27,7 +27,7 @@ echo "*** Installing debian/ubuntu build system"
  $install module-assistant
 
 echo "*** Installing OVS dependencies"
- $install pkg-config gcc make python-dev libssl-dev libtool
+ $install pkg-config gcc make python3-dev libssl-dev libtool
  $install dkms ipsec-tools
 
 echo "*** Installing headers for $kvers"

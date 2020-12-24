@@ -7,9 +7,9 @@ Standards-Version: 3.9.3
 Build-Depends:
  debhelper (>= 9~),
  help2man,
- python-dev,
- python-pkg-resources,
- python-setuptools
+ python3-dev,
+ python3-pkg-resources,
+ python3-setuptools
 Homepage: http://openflow.org/mininet
 
 Package: mininet
@@ -21,7 +21,7 @@ Depends:
  iperf,
  cgroup-bin,
  ${misc:Depends},
- ${python:Depends},
+ ${python3:Depends},
  ${shlibs:Depends}
 Recommends: openvswitch-controller
 Description: Process-based network emulator

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 from subprocess import check_output as co
 from sys import exit, version_info
