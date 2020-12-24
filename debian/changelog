@@ -1,10 +1,16 @@
-mininet (2.1.0-0ubuntu1) saucy; urgency=low
+mininet-frr (2.3.0-0ubuntu1) saucy; urgency=low
+
+  * Change to use Python 3
+
+ -- Martin Winter <mwinter@opensourcerouting.org>  Tue, 22 Dec 2020 05:30:00 +0100
+
+mininet-frr (2.1.0-0ubuntu1) saucy; urgency=low
 
   * Add 2.1.0 final packaging
 
  -- Bob Lantz <rlantz@cs.stanford.edu>  Wed, 18 Sep 2013 22:43:47 -0700
 
-mininet (2.1.0~rc1-0ubuntu1) saucy; urgency=low
+mininet-frr (2.1.0~rc1-0ubuntu1) saucy; urgency=low
 
   * New upstream release candidate:
     - d/control: Drop dependency on python-networkx, add iperf, socat
@@ -12,13 +18,13 @@ mininet (2.1.0~rc1-0ubuntu1) saucy; urgency=low
 
  -- James Page <james.page@ubuntu.com>  Wed, 28 Aug 2013 10:10:20 +0100
 
-mininet (2.0.0-0ubuntu1) raring; urgency=low
+mininet-frr (2.0.0-0ubuntu1) raring; urgency=low
 
   * New upstream release.
 
  -- James Page <james.page@ubuntu.com>  Wed, 19 Dec 2012 15:48:01 +0000
 
-mininet (2.0.0~rc1-0ubuntu1) quantal; urgency=low
+mininet-frr (2.0.0~rc1-0ubuntu1) quantal; urgency=low
 
   * New upstream release.
   * Update copyright to match upstream release
@@ -26,7 +32,7 @@ mininet (2.0.0~rc1-0ubuntu1) quantal; urgency=low
 
  -- Bob Lantz <rlantz@cs.stanford.edu>  Sun, 18 Nov 2012 00:15:09 -0800
 
-mininet (2.0.0~d4-0ubuntu1) quantal; urgency=low
+mininet-frr (2.0.0~d4-0ubuntu1) quantal; urgency=low
 
   * Initial release.
 

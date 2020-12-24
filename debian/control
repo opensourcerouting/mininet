@@ -1,7 +1,7 @@
-Source: mininet
+Source: mininet-frr
 Section: net
 Priority: extra
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Maintainer: Martin Winter <mwinter@opensourcerouting.org>
 XSBC-Original-Maintainer: Bob Lantz <rlantz@cs.stanford.edu>
 Standards-Version: 3.9.3
 Build-Depends:
@@ -12,7 +12,7 @@ Build-Depends:
  python3-setuptools
 Homepage: http://openflow.org/mininet
 
-Package: mininet
+Package: mininet-frr
 Architecture: any
 Depends:
  openvswitch-switch,
@@ -24,8 +24,11 @@ Depends:
  ${python3:Depends},
  ${shlibs:Depends}
 Recommends: openvswitch-controller
+Conflicts: mininet
 Description: Process-based network emulator
  Mininet is a network emulator which uses lightweight
  virtualization to create virtual networks for rapid
  prototyping of Software-Defined Network (SDN) designs
  using OpenFlow.
+ mininet-frr is a fork of mininet, modified for Python3
+ and will be ab
